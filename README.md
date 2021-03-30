@@ -1,3 +1,5 @@
-<h3>javascript Math 라이브러리 종류</h3>
+VScode 터미널 명령어
 
-![image](https://user-images.githubusercontent.com/17499464/113018393-756e3200-91bb-11eb-81a2-35ebdcc1b81f.png)
+docker run -ti -v /Users/ichanhui/Desktop/javascript:/home --name (원하는 이름) node bash
+
+
