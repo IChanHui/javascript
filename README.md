@@ -1,4 +1,4 @@
-VScode 터미널 명령어
+docker 터미널 명령어
 
 docker run -ti node bash                                                                   (docker 실행 -> name이 무작위로 생성)
 docker run -ti -v /Users/ichanhui/Desktop/javascript:/home --name (원하는 이름) node bash     (주소창에 home빼먹지 않기) 
@@ -24,6 +24,12 @@ docker stop (멈출 name)          (docker 멈추기)
 sudo chmod +x run.sh          (독커안에 run.sh추가) : run.sh에 "docker run -ti -v $(pwd):/home -w /home --rm node bash" 명령어가 들어가있음
 ./run.sh                      (run.sh가 자동으로 명령어를 실행시켜거 바로 docker로 들어가짐)
 
+
+docker start (name) : 정지된 컨테이너 실행
+docker restart (name) : 유사 재부팅
+docker attach (name) : 시작한 컨테이너에 접속 -> 엔터 한 번 더 입력하면 bash shell 표시됨
+docker rm (name) : 컨테이너 삭제
+docker search (images name) : 도커에서 이미지 검색
 
 
 -----------------------------------------------------------
