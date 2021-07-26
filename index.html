@@ -6,12 +6,19 @@
 <title>화면 전환 테스트</title>
 </head>
 <body>
-  <h2>화면 전환 테스트</h2>
+    <h2>화면 전환 테스트</h2>
     
-  <input type="button" value="page1" 
+    <input type="button" value="page1" 
         onclick="location.href='page1.html'">
 
-    <input type="button" value="page2" 
+    <!-- 버튼은 만들어지는데 화면전환이 안 됨 -->
+    <form method="post" action="page2.jsp">
+        <input type="button" value="page2-form">
+    </form>
+
+    <!-- jsp 파일로 전환하면 다운로드가 됨 : 왜인진 모름; -->
+    <input type="button" value="page2-onclick" 
         onclick="location.href='page2.jsp'">    
+        
 </body>
 </html>
