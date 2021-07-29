@@ -7,6 +7,10 @@ docker run -ti -v $(pwd):/home --name (원하는 이름) -w /home node bash     
 
 docker run -ti -v $(pwd):/home -w /home --rm node bash                                     (docker를 나가면 자동 삭제 : name의 의미가 없음)******
 
+--- images----
+
+docker run -it (images name) bash : 원하는 이미지 
+--------------
 
 docker ps             (현재 켜진거 확인)
 docker ps -a          (갖고있는거 다 보이기)
