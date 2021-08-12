@@ -10,6 +10,7 @@ docker run -ti -v $(pwd):/home -w /home --rm node bash                          
 --- images----
 
 docker run -it (images name) bash : 원하는 이미지 
+
 --------------
 
 docker ps             (현재 켜진거 확인)
@@ -71,6 +72,7 @@ VOLUME		: 파일 또는 디렉토리를 컨테이너의 디렉토리로 마운�
 EXPOSE		: 컨테이너 동작 시 외부에서 사용할 포트 지정
 CMD		: 컨테이너 동작 시 자동으로 실행할 서비스나 스크립트 지정
 FNTRYPOINT	: CMD와 함께 사용하면서 commend 지정 시 사용
+
 -----------------------------------------------------------
 history (내가 친 명령어들의 기록을 보여줌)
 npm     (팩키지 관리자)
