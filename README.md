@@ -29,10 +29,10 @@ sudo chmod +x run.sh          (독커안에 run.sh추가) : run.sh에 "docker ru
 ./run.sh                      (run.sh가 자동으로 명령어를 실행시켜거 바로 docker로 들어가짐)
 
 
-docker start (name) : 정지된 컨테이너 실행
-docker restart (name) : 유사 재부팅
-docker attach (name) : 시작한 컨테이너에 접속 -> 엔터 한 번 더 입력하면 bash shell 표시됨
-docker rm (name) : 컨테이너 삭제
+docker start (name)         : 정지된 컨테이너 실행
+docker restart (name)       : 유사 재부팅
+docker attach (name)        : 시작한 컨테이너에 접속 -> 엔터 한 번 더 입력하면 bash shell 표시됨
+docker rm (name)            : 컨테이너 삭제
 docker search (images name) : 도커에서 이미지 검색
 
 --
