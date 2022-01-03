@@ -76,3 +76,6 @@ FNTRYPOINT	: CMD와 함께 사용하면서 commend 지정 시 사용
 -----------------------------------------------------------
 history (내가 친 명령어들의 기록을 보여줌)
 npm     (팩키지 관리자)
+
+
+docker-compose run --rm haskell
